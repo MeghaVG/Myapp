@@ -1,0 +1,283 @@
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+ }
+ 
+ .page-headding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ }
+ 
+ .page-headding>section {
+  margin: 1px;
+ 
+ }
+ 
+ .Log-in {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  color: #152A4F;
+  flex: none;
+  order: 0;
+  
+    padding-right: 310px;
+    
+ }
+ 
+ .Mollis-section {
+ 
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 20px;
+  color: #94A0B6;
+  
+   width: 380px;  
+  text-align: center;
+  align-items: flex-start;
+  text-align: justify;
+  
+ }
+ 
+ .Main-form {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  margin-top: 10px;
+  padding-right: 10px; 
+ 
+ }
+ 
+ .Main-form>section {
+  margin: 8px;
+ }
+ 
+ .username {
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 50px;
+ 
+ 
+ 
+  color: #A5ABB5;
+ 
+  align-content: flex-start;
+   width: 346px; 
+  color:black;
+  background: transparent;
+  border: none;
+  outline: none;
+  
+  
+ }
+ 
+ .login {
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+ 
+ 
+   color: #FFFFFF;
+ 
+ 
+  padding: 10px 170px; 
+  border-radius: 12px;
+  background: #518EF8;
+  border: none;
+ }
+ 
+ .frame {
+  
+  background: #F8F8F8;
+  border-radius: 12px;
+  display: flex;
+  
+ }
+ 
+ .SVGImage {
+  margin: 16px 8px;
+ 
+ }
+ 
+ .Uname {
+  margin: 4px 0px;
+ }
+ 
+ 
+ .frame2 {
+   background: #F8F8F8;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;}
+ 
+ .SVGImage2 {
+  margin: 16px 7px;
+  display: flex;
+  flex-direction: row;
+ }
+ 
+ .group {
+  position: absolute;
+  margin: 4px 5px;
+  
+ }
+ 
+ .PWD {
+  margin: 4px 0px;
+ }
+ 
+ .frame3 {
+  margin-top: 45px;
+ }
+
+ .radiobtn{
+  background: #F8F8F8;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+ } 
+
+ .radiobtn> section{
+   margin: 5px;
+   padding: 12px 13px;
+
+ }
+
+.checkbtn{
+  background: #F8F8F8;
+  border-radius: 12px;
+  margin: 2px;
+  padding: 15px 88px;
+  
+}
+.selectbtn{
+  background: #F8F8F8;
+  border-radius: 12px;
+  margin: 2px;
+  padding: 15px 88px;
+}
+
+
+
+ @media only screen and (min-width:375px) and (max-width:400px) {
+  .login-form{
+          padding-right: 10px;
+  }
+  .username{
+    width: 250px;
+  }
+  .login{
+    padding:2px 120px;
+  }
+  .Mollis-section{
+    width: 290px;
+  }
+  .Log-in{
+   padding-right: 220px;
+  }
+
+  
+}
+ 
+@media only screen and (min-width:209px) and (max-width:375px) {
+  .username{
+    width: 150px;
+  }
+  .login{
+    padding:4px 70px;
+  }
+  .Mollis-section{
+    width: 160px;
+  }
+  .Log-in{
+    padding-right: 120px;
+  }
+  
+}
+
+
+@media only screen and (min-width:189px) and (max-width:209px) {
+  .login-form{
+          padding-right: 0px;
+  }
+  .username{
+    width: 60px;
+    font-size: 10px;
+  }
+  .login{
+    padding:4px 25px;
+  }
+  .Mollis-section{
+    width: 110px;
+  }
+  .Log-in{
+   
+    padding-right: 100px;
+  }
+  .page-headding{
+    margin: 0px;
+  }
+}
+
+@media only screen and (min-width:80px) and (max-width:189px) {
+ 
+  .username{
+    width: 60px;
+    font-size: 10px;
+  }
+  .login{
+    padding:4px 15px;
+  }
+  .Mollis-section{
+    width: 90px;
+  }
+  .Log-in{
+   
+    padding-right: 20px;
+  }
+ 
+}
+
+@media only screen and (min-width:50px) and (max-width:79px) {
+ 
+  .username{
+    width: 20px;
+    font-size: 10px;
+  }
+  .login{
+    padding:4px 8px;
+  }
+  .Mollis-section{
+    width: 20px;
+  }
+  .Log-in{
+   
+    padding-right: 0px;
+    font-size:12px ;
+  }
+ 
+}
+
+
+
+
+
